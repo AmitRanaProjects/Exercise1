@@ -1,0 +1,17 @@
+{
+  "name": "playwright-automation",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/automation.ts",
+    "automation": "ts-node --transpile-only src/automation.ts"
+  },
+  "dependencies": {
+    "playwright": "^1.40.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}
